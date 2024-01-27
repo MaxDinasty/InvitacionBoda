@@ -1,0 +1,930 @@
+@font-face {
+    font-family: "rbl";
+    font-style: normal;
+    font-weight: 100;
+    src: url("../fonts/RobotoMono-Thin.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Houstiny";
+    font-style: normal;
+    font-weight: 100;
+    src: url("../fonts/Houstiny.ttf") format("truetype");
+}
+
+html {
+    overflow-x: hidden
+}
+
+.container-lg {
+    padding: 0 !important;
+}
+
+.lox {
+    margin-bottom: 50px;
+}
+
+.num-black {
+    text-decoration: none !important;
+  	color: #000 !important;
+}
+
+.num-img-png {
+  	transform: scale(0.9);
+}
+
+.num_safari {
+	text-decoration: none !important;
+  	color: #000;
+  	display: block;
+}
+
+#btnka {
+    height: 150px;
+  	width: 150px;
+    position: fixed;
+    top: 20px;
+  	right: 20px;
+  	z-index: 9999;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0px 86px;
+}
+
+
+
+/* Header */
+
+.header {
+    background-image: url("../images/main.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+    width: auto;
+    height: 1770px;
+}
+
+
+.header-height {
+    padding-top: 93px;
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.header-names {
+    margin-top: 1320px;
+
+    font-family: "Houstiny";
+    font-size: 200px;
+
+    text-align: center;
+    color: #fff;
+}
+
+.header-date {
+    font-weight: 100;
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.header-tag {
+    margin-top: 25px;
+    
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 100;
+    text-align: center; 
+}
+
+
+/* Block-W */
+
+.block-w-image {
+    display: flex;
+    justify-content: center;
+}
+
+.imageCapa {
+    width: 564px;
+    margin: 160px auto;
+    display: block;
+}
+
+.block-w-title {
+    margin-top: 26px;
+
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #0B0B0B;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.block-w-date {
+    margin-top: 95px;
+
+    font-family: "Houstiny";
+    font-size: 175px;
+    line-height: 115.2px;
+    text-align: center;
+    color: #090909;
+}
+
+.block-w-text {
+    margin: 100px 66px;
+
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #0B0B0B;
+    font-size: 33px;
+    font-weight: 100;
+}
+
+.block-w-text span {
+    font-weight: 300;
+}
+
+.block-w-padres {
+    font-weight: 100;
+    padding: 50px;
+    font-size: 25px;
+    font-family: 'Roboto Mono' monospace;
+}
+
+
+
+/* Program */
+
+.program-shed {
+    position: relative;
+}
+
+.program-title {
+    margin-top: 370px;
+
+    font-family: "Houstiny";
+    font-size: 250px;
+    line-height: 115.2px;
+    text-align: center;
+    color: #090909;
+}
+
+.dot {
+    margin-top: 130px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dot2 {
+    margin-top: -2px;
+}
+
+.line {
+    width: 3px;
+    height: 1200px;
+    background-color: #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.we-do {
+    position: absolute;
+    top: 160px;
+    margin-left: 232px;
+
+    height: 10px;
+    width: 262px;
+/*    background-color: #000;*/
+border-top: 2px #000 solid;
+}
+
+.we-do-0{
+    right: 50%;
+}
+.we-do-1 {
+    position: absolute;
+    top: 697px;
+    right: 50%;
+
+    height: 10px;
+    width: 262px;
+/*    background-color: #000;*/
+border-top: 2px #000 solid;
+}
+
+.we-do-2 {
+    position: absolute;
+    top: 430px;
+
+    margin-left: 50%;
+
+    height: 10px;
+    width: 262px;
+/*    background-color: #000;*/
+border-top: 2px #000 solid;
+}
+
+.we-do-3 {
+    position: absolute;
+    top: 955px;
+    margin-left: 50%;
+
+    height: 10px;
+    width: 262px;
+/*    background-color: #000;*/
+border-top: 2px #000 solid;
+}
+
+.we-do-4 {
+    position: absolute;
+    top: 1270px;
+    right: 50%;
+
+    height: 10px;
+    width: 262px;
+/*    background-color: #000;*/
+border-top: 2px #000 solid;
+}
+
+.we-do-title {
+    font-size: 30px;
+    margin-top: -84px;
+    margin-left: -2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.we-do-title2 {
+    margin-top: -62px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.we-do-title3 {
+    margin-top: -84px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.we-do-sub {
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 2px;
+    text-align: center;
+}
+
+.we-do-sub2 {
+    text-align: center;
+    margin-top: 9px;
+    margin-left: 34px;
+}
+
+.we-do-time {
+    font-size: 55px;
+    margin-top: -136px;
+    margin-left: -184px;
+
+}
+
+.we-do-time2 {
+    margin-top: -118px;
+    margin-left: 278px;
+}
+
+.we-do-image {
+    width: 100px;
+    margin-top: -111px;
+    margin-left: 314px;
+}
+
+.we-do-image1 {
+    top: 7px;
+    margin-left: 4px;
+    position: absolute;
+}
+
+.we-do-image2 {
+    /* top: -9px; */
+    margin-left: -143px;
+    position: absolute;
+}
+
+.program-vetka-img {
+    width: 273px;
+    margin-right: 100px;
+    margin-top: -268px;
+}
+
+
+
+/* deseos Code */
+
+.deseos-title {
+    margin-top: 260px;
+
+    font-family: "Houstiny";
+    font-size: 220px;
+    line-height: 115.2px;
+    text-align: center;
+    color: #090909;
+}
+
+.deseos-sub {
+    margin-top: 100px;
+    font-size: 34px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.deseos-text {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+
+/* Colors */
+
+.colors {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.green {
+    background-color: #D4D7C4;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+.gray {
+    background-color: #E6E7EC;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+.black {
+    background-color: #687A86;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+
+
+
+/* Date */
+
+.date {
+    background-image: url(../images/cuentaatras.jpg);
+    background-size: cover;
+    margin-top: 200px;
+}
+
+.date-title {
+    padding-top: 170px;
+    height: 1200px;
+    font-family: "Houstiny";
+    font-size: 200px;
+    line-height: 115.2px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.count {
+    display: flex;
+    justify-content: center;
+}
+
+.timer-block {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    border-right: 2px solid #FFFFFF;
+    padding-right: 61px;
+    padding-left: 61px;
+    margin-top: 200px;
+    margin-bottom: 140px;
+}
+
+.timer-block:last-child {
+    border-right: 0;
+}
+
+.timer-block span {
+    font-size: 60px;
+}
+
+
+
+
+
+/* Map */
+
+.map-flower {
+    display: flex;
+    justify-content: center;
+}
+
+.map-img-flower {
+    width: 564px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map-title {
+    margin-top: 295px;
+
+    font-family: "Houstiny";
+    font-size: 135px;
+    line-height: 115.2px;
+    text-align: center;
+    color: #090909;
+}
+
+.hash-title{
+
+    margin-top: 295px;
+    font-family: "Houstiny";
+    font-size: 200px;
+    line-height: 115.2px;
+    text-align: center;
+    color: #090909;
+}
+
+.map-text {
+    margin: 116px 33px;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 100;
+}
+
+.map-text > b{
+    font-size: 38px;
+    font-weight: 300;
+}
+
+
+.map-ggl {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.map-places{
+    text-align: center;
+    font-family: 'Roboto Mono';
+    font-style: italic;
+    font-weight: 300;
+}
+
+.map-item-button{
+    margin-top: 50px;
+    padding: 15px 100px;
+    background-color: transparent;
+    border-radius: 50px;
+    font-style: italic;
+    margin-bottom: 150px;
+    border: 1px solid #000;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* Contact */
+.contact-title {
+    margin-top: 95px;
+    font-family: "Houstiny";
+    font-size: 300px;
+    line-height: 115.2px;
+    text-align: center;
+    color: #090909;
+}
+
+/* Planer */
+
+.planer-title {
+    margin-top: 250px;
+    font-family: "Houstiny";
+    font-size: 200px;
+    line-height: 115.2px;
+    text-align: center;
+    color: #090909;
+}
+
+.planer-text {
+    margin-top: 155px;
+
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.face-img {
+    width: 250px;
+    height: 250px;
+  	border-radius: 125px;
+}
+
+.planer-face {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.face-name {
+    font-family: "Houstiny";
+    font-size: 120px;
+    line-height: 115.2px;
+    text-align: center;
+    color: #090909;
+}
+
+.face-number {
+    font-size: 59px;
+    text-align: center;
+    font-weight: 300;
+    color: #191919;
+
+    text-decoration: none;
+}
+
+.face-capa-img {
+    position: absolute;
+    right: 0;
+
+    width: 241px;
+    margin-top: -736px;
+}
+
+
+
+
+/* Numbers */
+.numbers{
+    margin-top: 500px;
+}
+.numbers-title {
+    margin-top: 354px;
+	margin-bottom: 130px;
+    font-family: "Houstiny";
+    font-size: 360px;
+    line-height: 115.2px;
+    text-align: center;
+    color: #090909;
+}
+
+.numbers-text {
+    margin-top: 50px;
+
+    font-size: 26px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.number {
+    margin-top: 70px;
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 172px;
+}
+
+.numbers-vetka-img {
+    width: 273px;
+    margin-right: 100px;
+    margin-top: -198px;
+}
+
+.num-photo1 {
+    position: relative;
+}
+
+.num-img1 {
+    width: 570px;
+    position: absolute;
+    right: 30px;
+    top: -300px;
+
+    z-index: 1;
+}
+
+.num-photo2 {
+    position: relative;
+}
+
+.num-img2 {
+    right: 370px;
+    height: 843px;
+    position: absolute;
+    top: 344px;
+
+    z-index: 2;
+}
+
+.text-holder {
+    position: relative;
+}
+
+.num-text {
+    position: absolute;
+    top: 703px;
+    right: 10px;
+    width: 297px;
+    font-weight: 100;
+    font-size: 100px;
+    line-height: 1.2;
+}
+
+.num-text span {
+    font-weight: 500;
+}
+
+.numbers-date{
+    width: 379px;
+    text-align: center;
+    font-size: 100px;
+    padding-top: -274px;
+    position: absolute;
+    margin-top: -200px;
+    font-weight: 100;
+    line-height: 1.3;
+}
+
+/* Form */
+
+.tolkach {
+    height: 1190px;
+}
+
+.form-title {
+    margin-top: 150px;
+    font-family: "Houstiny";
+    font-size: 170px;
+    line-height: 150px;
+    text-align: center;
+    color: #000;
+}
+
+.form-input {
+    width: 100%;
+    font-size: 37.5px;
+    font-weight: 100;
+    padding-left: 26px;
+    padding-bottom: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2.5px solid #000000;
+    
+}
+
+.form {
+    padding: 0 50px;
+}
+
+.input-holder {
+    margin-bottom: 75px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.red-form {
+    margin-top: 108px;
+}
+
+.confirm-title {
+    font-weight: 300;
+    font-size: 37px;
+    margin-bottom: 50px;
+}
+
+.confirm-radio {
+    margin-bottom: 15px;
+}
+
+.confirm-radio label {
+    margin-left: 15px;
+    font-weight: 100;
+}
+
+.radio-btn {
+    outline: none;
+    padding-right: 15px;
+
+}
+
+.questions-title {
+    font-weight: 300;
+    font-size: 37px;
+    margin-bottom: 50px;
+    margin-top: 85px;
+}
+
+.quest-holder {
+    margin-top: 65px;
+}
+
+.food-title {
+    font-weight: 300;
+    font-size: 32px;
+    margin-bottom: 42px;
+}
+
+.fooder2 {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* Button */
+
+.btn {
+    font-size: 32px;
+    font-weight: 400;
+    padding: 35px 315px;
+
+    border: 1px solid #191919;
+    border-radius: 150px;
+    background-color: #fff;
+
+    text-decoration: none;
+    color: #000;
+}
+
+.button {
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 90px;
+}
+
+
+
+/* Footer */
+
+.footer-title {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer-sub {
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+
+    margin-top: 100px;
+}
+
+.footer-names {
+    font-family: "Houstiny";
+    font-size: 200px;
+    color: #000;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Custom Radio */
+
+ /* Ð´Ð»Ñ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° input c type="radio" */
+  .custom-radio {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  /* Ð´Ð»Ñ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° label ÑÐ²ÑÐ·Ð°Ð½Ð½Ð¾Ð³Ð¾ Ñ .custom-radio */
+  .custom-radio+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+    font-family: 'rbl';
+  }
+  /* ÑÐ¾Ð·Ð´Ð°Ð½Ð¸Ðµ Ð² label Ð¿ÑÐµÐ²Ð´Ð¾ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð°  before ÑÐ¾ ÑÐ»ÐµÐ´ÑƒÑŽÑ‰Ð¸Ð¼Ð¸ ÑÑ‚Ð¸Ð»ÑÐ¼Ð¸ */
+  .custom-radio+label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+  /* ÑÑ‚Ð¸Ð»Ð¸ Ð¿Ñ€Ð¸ Ð½Ð°Ð²ÐµÐ´ÐµÐ½Ð¸Ð¸ ÐºÑƒÑ€ÑÐ¾Ñ€Ð° Ð½Ð° Ñ€Ð°Ð´Ð¸Ð¾ */
+  .custom-radio:not(:disabled):not(:checked)+label:hover::before {
+    border-color: #b3d7ff;
+  }
+  /* ÑÑ‚Ð¸Ð»Ð¸ Ð´Ð»Ñ Ð°ÐºÑ‚Ð¸Ð²Ð½Ð¾Ð¹ Ñ€Ð°Ð´Ð¸Ð¾ÐºÐ½Ð¾Ð¿ÐºÐ¸ (Ð¿Ñ€Ð¸ Ð½Ð°Ð¶Ð°Ñ‚Ð¸Ð¸ Ð½Ð° Ð½ÐµÑ‘) */
+  .custom-radio:not(:disabled):active+label::before {
+    background-color: #b3d7ff;
+    border-color: #000000;
+  }
+  /* ÑÑ‚Ð¸Ð»Ð¸ Ð´Ð»Ñ Ñ€Ð°Ð´Ð¸Ð¾ÐºÐ½Ð¾Ð¿ÐºÐ¸, Ð½Ð°Ñ…Ð¾Ð´ÑÑ‰ÐµÐ¹ÑÑ Ð² Ñ„Ð¾ÐºÑƒÑÐµ */
+  .custom-radio:focus+label::before {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  /* ÑÑ‚Ð¸Ð»Ð¸ Ð´Ð»Ñ Ñ€Ð°Ð´Ð¸Ð¾ÐºÐ½Ð¾Ð¿ÐºÐ¸, Ð½Ð°Ñ…Ð¾Ð´ÑÑ‰ÐµÐ¹ÑÑ Ð² Ñ„Ð¾ÐºÑƒÑÐµ Ð¸ Ð½Ðµ Ð½Ð°Ñ…Ð¾Ð´ÑÑ‰ÐµÐ¹ÑÑ Ð² ÑÐ¾ÑÑ‚Ð¾ÑÐ½Ð¸Ð¸ checked */
+  .custom-radio:focus:not(:checked)+label::before {
+    border-color: #141414;
+  }
+  /* ÑÑ‚Ð¸Ð»Ð¸ Ð´Ð»Ñ Ñ€Ð°Ð´Ð¸Ð¾ÐºÐ½Ð¾Ð¿ÐºÐ¸, Ð½Ð°Ñ…Ð¾Ð´ÑÑ‰ÐµÐ¹ÑÑ Ð² ÑÐ¾ÑÑ‚Ð¾ÑÐ½Ð¸Ð¸ checked */
+  .custom-radio:checked+label::before {
+    border-color: #161719;
+    background-color: #000000;
+/*    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");*/
+  }
+  /* ÑÑ‚Ð¸Ð»Ð¸ Ð´Ð»Ñ Ñ€Ð°Ð´Ð¸Ð¾ÐºÐ½Ð¾Ð¿ÐºÐ¸, Ð½Ð°Ñ…Ð¾Ð´ÑÑ‰ÐµÐ¹ÑÑ Ð² ÑÐ¾ÑÑ‚Ð¾ÑÐ½Ð¸Ð¸ disabled */
+  .custom-radio:disabled+label::before {
+    background-color: #e9ecef;
+  }
+
+
+  @media only screen and (min-device-width : 1200px){ 
+    .numbers-date{
+        margin-left: 160px;
+    }
+  }
+
+  @media only screen and (min-device-width : 1400px){ 
+    .numbers-date{
+        margin-left: 360px;
+    }
+  }
