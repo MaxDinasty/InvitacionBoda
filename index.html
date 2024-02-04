@@ -53,11 +53,15 @@
 <meta name="msapplication-config" content="img/faviconit/browserconfig.xml">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script>
-  // JavaScript para evitar el desplazamiento horizontal
   document.addEventListener("DOMContentLoaded", function() {
+    // Verificar si es un dispositivo móvil
+    if (/Mobi|Android/i.test(navigator.userAgent)) {
+      // Deshabilitar el desplazamiento horizontal
       document.body.style.overflowX = "hidden";
+    }
   });
 </script>
+
 </head>
 
 <body>
