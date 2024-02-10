@@ -91,7 +91,7 @@ body {
 }
 
 .header-names {
-    
+    margin-top: 400px;
 
     font-family: "Houstiny";
     font-size: 80px;
@@ -184,7 +184,7 @@ body {
 
 .program-title {
     
-
+    margin-top: 10px;
     font-family: "Houstiny";
     font-size: 80px;
     text-align: center;
