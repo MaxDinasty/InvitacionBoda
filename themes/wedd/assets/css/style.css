@@ -7,7 +7,7 @@
 @font-face {
     font-family: "Houstiny";
     font-style: normal;
-    font-weight: 30;
+    font-weight: 100;
     src: url("../fonts/Houstiny.ttf") format("truetype");
 }
 
@@ -187,7 +187,6 @@ body {
 
     font-family: "Houstiny";
     font-size: 80px;
-    line-height: 90.2px;
     text-align: center;
     color: #090909;
 }
@@ -351,7 +350,6 @@ border-top: 2px #000 solid;
 
     font-family: "Houstiny";
     font-size: 80px;
-    line-height: 115.2px;
     text-align: center;
     color: #090909;
 }
@@ -416,7 +414,6 @@ border-top: 2px #000 solid;
     height: 1200px;
     font-family: "Houstiny";
     font-size: 80px;
-    line-height: 115.2px;
     text-align: center;
     color: #fff;
 }
@@ -469,7 +466,6 @@ border-top: 2px #000 solid;
 
     font-family: "Houstiny";
     font-size: 70px;
-    line-height: 115.2px;
     text-align: center;
     color: #090909;
 }
@@ -479,7 +475,6 @@ border-top: 2px #000 solid;
     margin-top: 295px;
     font-family: "Houstiny";
     font-size: 80px;
-    line-height: 115.2px;
     text-align: center;
     color: #090909;
 }
@@ -527,7 +522,6 @@ border-top: 2px #000 solid;
     margin-top: 95px;
     font-family: "Houstiny";
     font-size: 80px;
-    line-height: 115.2px;
     text-align: center;
     color: #090909;
 }
@@ -538,7 +532,6 @@ border-top: 2px #000 solid;
     margin-top: 250px;
     font-family: "Houstiny";
     font-size: 80px;
-    line-height: 115.2px;
     text-align: center;
     color: #090909;
 }
@@ -566,7 +559,6 @@ border-top: 2px #000 solid;
 .face-name {
     font-family: "Houstiny";
     font-size: 80px;
-    line-height: 115.2px;
     text-align: center;
     color: #090909;
 }
@@ -600,7 +592,6 @@ border-top: 2px #000 solid;
 	margin-bottom: 130px;
     font-family: "Houstiny";
     font-size: 80px;
-    line-height: 115.2px;
     text-align: center;
     color: #090909;
 }
@@ -692,7 +683,6 @@ border-top: 2px #000 solid;
     margin-top: 150px;
     font-family: "Houstiny";
     font-size: 80px;
-    line-height: 150px;
     text-align: center;
     color: #000;
 }
