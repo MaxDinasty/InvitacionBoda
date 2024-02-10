@@ -7,7 +7,7 @@
 @font-face {
     font-family: "Houstiny";
     font-style: normal;
-    font-weight: 100;
+    font-weight: 30;
     src: url("../fonts/Houstiny.ttf") format("truetype");
 }
 
@@ -94,7 +94,7 @@ body {
     margin-top: 1320px;
 
     font-family: "Houstiny";
-    font-size: 200px;
+    font-size: 80px;
 
     text-align: center;
     color: #fff;
@@ -147,7 +147,7 @@ body {
     margin-top: 95px;
 
     font-family: "Houstiny";
-    font-size: 175px;
+    font-size: 100px;
     line-height: 115.2px;
     text-align: center;
     color: #090909;
@@ -186,8 +186,8 @@ body {
     margin-top: 370px;
 
     font-family: "Houstiny";
-    font-size: 250px;
-    line-height: 115.2px;
+    font-size: 80px;
+    line-height: 90.2px;
     text-align: center;
     color: #090909;
 }
@@ -350,7 +350,7 @@ border-top: 2px #000 solid;
     margin-top: 260px;
 
     font-family: "Houstiny";
-    font-size: 220px;
+    font-size: 80px;
     line-height: 115.2px;
     text-align: center;
     color: #090909;
@@ -415,7 +415,7 @@ border-top: 2px #000 solid;
     padding-top: 170px;
     height: 1200px;
     font-family: "Houstiny";
-    font-size: 200px;
+    font-size: 80px;
     line-height: 115.2px;
     text-align: center;
     color: #fff;
@@ -468,7 +468,7 @@ border-top: 2px #000 solid;
     margin-top: 295px;
 
     font-family: "Houstiny";
-    font-size: 135px;
+    font-size: 70px;
     line-height: 115.2px;
     text-align: center;
     color: #090909;
@@ -478,7 +478,7 @@ border-top: 2px #000 solid;
 
     margin-top: 295px;
     font-family: "Houstiny";
-    font-size: 200px;
+    font-size: 80px;
     line-height: 115.2px;
     text-align: center;
     color: #090909;
@@ -526,7 +526,7 @@ border-top: 2px #000 solid;
 .contact-title {
     margin-top: 95px;
     font-family: "Houstiny";
-    font-size: 300px;
+    font-size: 80px;
     line-height: 115.2px;
     text-align: center;
     color: #090909;
@@ -537,7 +537,7 @@ border-top: 2px #000 solid;
 .planer-title {
     margin-top: 250px;
     font-family: "Houstiny";
-    font-size: 200px;
+    font-size: 80px;
     line-height: 115.2px;
     text-align: center;
     color: #090909;
@@ -565,7 +565,7 @@ border-top: 2px #000 solid;
 
 .face-name {
     font-family: "Houstiny";
-    font-size: 120px;
+    font-size: 80px;
     line-height: 115.2px;
     text-align: center;
     color: #090909;
@@ -599,7 +599,7 @@ border-top: 2px #000 solid;
     margin-top: 354px;
 	margin-bottom: 130px;
     font-family: "Houstiny";
-    font-size: 360px;
+    font-size: 80px;
     line-height: 115.2px;
     text-align: center;
     color: #090909;
@@ -691,7 +691,7 @@ border-top: 2px #000 solid;
 .form-title {
     margin-top: 150px;
     font-family: "Houstiny";
-    font-size: 170px;
+    font-size: 80px;
     line-height: 150px;
     text-align: center;
     color: #000;
@@ -811,7 +811,7 @@ border-top: 2px #000 solid;
 
 .footer-names {
     font-family: "Houstiny";
-    font-size: 200px;
+    font-size: 80px;
     color: #000;
     text-align: center;
     margin-top: 150px;
