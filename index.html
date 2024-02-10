@@ -278,6 +278,7 @@
         <img id="img1" class="imagen-destacada selected" src="./themes/wedd/assets/images/iglesia.png" alt="Imagen 1">
         <img id="img2" class="imagen-destacada" src="./themes/wedd/assets/images/bus.png" alt="Imagen 2">
         <img id="img3" class="imagen-destacada" src="./themes/wedd/assets/images/salud.png" alt="Imagen 3">
+        <img id="img4" class="imagen-destacada" src="./themes/wedd/assets/images/hotel.png" alt="Imagen 4">
         
         <div id="content1" class="content" style="display:block">
             <br>
@@ -310,41 +311,74 @@
                     <img src="./themes/wedd/assets/images/localizacion.png" alt="Descripción de la imagen" width="70"></a>
               </div>
         </div>
+        <div id="content4" class="content">
+            <br><br>
+            <div data-aos="fade-down" class="block-w-title">
+                 10% Descuento <br>Referencia Patricia y Jesus<br>Por telefono o correo <br>
+                
+                
+
+                <br><b>-Hotel Costasol<br>
+                -Hotel Nuevo Torreluz<br>
+                -Hotel Torreluz Centro </b> <br><br><br>
+                
+                
+                  
+                </div>
+        </div>
         
         <script>
             var img1 = document.getElementById("img1");
             var img2 = document.getElementById("img2");
             var img3 = document.getElementById("img3");
+            var img4 = document.getElementById("img4");
         
             var content1 = document.getElementById("content1");
             var content2 = document.getElementById("content2");
             var content3 = document.getElementById("content3");
+            var content4 = document.getElementById("content4");
         
             img1.addEventListener("click", function() {
     img1.classList.add("selected");
     img2.classList.remove("selected");
     img3.classList.remove("selected");
+    img4.classList.remove("selected");
     content1.style.display = "block";
     content2.style.display = "none";
     content3.style.display = "none";
+    content4.style.display = "none";
 });
         
             img2.addEventListener("click", function() {
                 img1.classList.remove("selected");
                 img2.classList.add("selected");
                 img3.classList.remove("selected");
+                img4.classList.remove("selected");
                 content1.style.display = "none";
                 content2.style.display = "block";
                 content3.style.display = "none";
+                content4.style.display = "none";
             });
         
             img3.addEventListener("click", function() {
                 img1.classList.remove("selected");
                 img2.classList.remove("selected");
                 img3.classList.add("selected");
+                img4.classList.remove("selected");
                 content1.style.display = "none";
                 content2.style.display = "none";
                 content3.style.display = "block";
+                content4.style.display = "none";
+            });
+            img4.addEventListener("click", function() {
+                img1.classList.remove("selected");
+                img2.classList.remove("selected");
+                img3.classList.remove("selected");
+                img4.classList.add("selected");
+                content1.style.display = "none";
+                content2.style.display = "none";
+                content3.style.display = "none";
+                content4.style.display = "block";
             });
         </script>
     </div>
