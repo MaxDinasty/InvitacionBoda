@@ -462,30 +462,30 @@
                 <script>
                     var startTouchX;
                     var imageContainer = document.getElementById('imageContainer');
-
+                
                     imageContainer.addEventListener('touchstart', handleTouchStart, false);
                     imageContainer.addEventListener('touchmove', handleTouchMove, false);
-
+                
                     function handleTouchStart(event) {
                         startTouchX = event.touches[0].clientX;
                     }
-
+                
                     function handleTouchMove(event) {
                         if (!startTouchX) {
                             return;
                         }
-
+                
                         var currentTouchX = event.touches[0].clientX;
                         var deltaX = currentTouchX - startTouchX;
-
-                        if (deltaX > 50) {
+                
+                        if (deltaX > 30) {  // Reducir el umbral para hacerlo más sensible
                             // Swipe hacia la derecha
                             changeContent(-1);
-                        } else if (deltaX < -50) {
+                        } else if (deltaX < -30) {  // Reducir el umbral para hacerlo más sensible
                             // Swipe hacia la izquierda
                             changeContent(1);
                         }
-
+                
                         startTouchX = null;
                     }
                 </script>
