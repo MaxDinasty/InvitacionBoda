@@ -326,7 +326,7 @@
         <div id="content4" class="content">
             <br><br>
             <div data-aos="fade-down" class="block-w-title">
-                 10% Descuento sujetos a disponibilidad<br>Referencia boda de Patricia y Jesús<br>Por telefono o correo <br>
+                 10% Descuento<br> sujetos a disponibilidad<br>Referencia boda de Patricia y Jesús<br>Por telefono o correo <br>
                 
                 
 
@@ -423,35 +423,7 @@
                 }
             }
         </script>
-        <script>
-            var startTouchX;
         
-            document.getElementById('img1').addEventListener('touchstart', handleTouchStart, false);
-            document.getElementById('img1').addEventListener('touchmove', handleTouchMove, false);
-        
-            function handleTouchStart(event) {
-                startTouchX = event.touches[0].clientX;
-            }
-        
-            function handleTouchMove(event) {
-                if (!startTouchX) {
-                    return;
-                }
-        
-                var currentTouchX = event.touches[0].clientX;
-                var deltaX = currentTouchX - startTouchX;
-        
-                if (deltaX > 50) {
-                    // Swipe hacia la derecha
-                    changeContent(-1);
-                } else if (deltaX < -50) {
-                    // Swipe hacia la izquierda
-                    changeContent(1);
-                }
-        
-                startTouchX = null;
-            }
-        </script>
     </div>
 
     <br>
