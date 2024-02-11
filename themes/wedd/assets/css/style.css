@@ -7,7 +7,7 @@
 @font-face {
     font-family: "Houstiny";
     font-style: normal;
-    font-weight: 30;
+    font-weight: 100;
     src: url("../fonts/Houstiny.ttf") format("truetype");
 }
 
@@ -91,10 +91,10 @@ body {
 }
 
 .header-names {
-    margin-top: 1320px;
+    margin-top: 1400px;
 
     font-family: "Houstiny";
-    font-size: 80px;
+    font-size: 70px;
 
     text-align: center;
     color: #fff;
@@ -147,8 +147,8 @@ body {
     margin-top: 95px;
 
     font-family: "Houstiny";
-    font-size: 100px;
-    line-height: 115.2px;
+    font-size: 70px;
+
     text-align: center;
     color: #090909;
 }
@@ -183,13 +183,13 @@ body {
 }
 
 .program-title {
-    margin-top: 370px;
-
+    
+    margin-top: 10px;
     font-family: "Houstiny";
-    font-size: 80px;
-    line-height: 90.2px;
+    font-size: 70px;
     text-align: center;
     color: #090909;
+    padding: 10px;
 }
 
 .dot {
@@ -351,7 +351,6 @@ border-top: 2px #000 solid;
 
     font-family: "Houstiny";
     font-size: 80px;
-    line-height: 115.2px;
     text-align: center;
     color: #090909;
 }
@@ -416,7 +415,6 @@ border-top: 2px #000 solid;
     height: 1200px;
     font-family: "Houstiny";
     font-size: 80px;
-    line-height: 115.2px;
     text-align: center;
     color: #fff;
 }
@@ -469,7 +467,6 @@ border-top: 2px #000 solid;
 
     font-family: "Houstiny";
     font-size: 70px;
-    line-height: 115.2px;
     text-align: center;
     color: #090909;
 }
@@ -479,7 +476,6 @@ border-top: 2px #000 solid;
     margin-top: 295px;
     font-family: "Houstiny";
     font-size: 80px;
-    line-height: 115.2px;
     text-align: center;
     color: #090909;
 }
@@ -527,7 +523,6 @@ border-top: 2px #000 solid;
     margin-top: 95px;
     font-family: "Houstiny";
     font-size: 80px;
-    line-height: 115.2px;
     text-align: center;
     color: #090909;
 }
@@ -538,7 +533,6 @@ border-top: 2px #000 solid;
     margin-top: 250px;
     font-family: "Houstiny";
     font-size: 80px;
-    line-height: 115.2px;
     text-align: center;
     color: #090909;
 }
@@ -566,7 +560,6 @@ border-top: 2px #000 solid;
 .face-name {
     font-family: "Houstiny";
     font-size: 80px;
-    line-height: 115.2px;
     text-align: center;
     color: #090909;
 }
@@ -600,7 +593,6 @@ border-top: 2px #000 solid;
 	margin-bottom: 130px;
     font-family: "Houstiny";
     font-size: 80px;
-    line-height: 115.2px;
     text-align: center;
     color: #090909;
 }
@@ -692,7 +684,6 @@ border-top: 2px #000 solid;
     margin-top: 150px;
     font-family: "Houstiny";
     font-size: 80px;
-    line-height: 150px;
     text-align: center;
     color: #000;
 }
