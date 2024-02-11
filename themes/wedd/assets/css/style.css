@@ -818,6 +818,36 @@ border-top: 2px #000 solid;
     margin-bottom: 110px;
 }
 
+.header-names,
+.header-date,
+.header-tag,
+.block-w-date,
+.we-do-title,
+.we-do-title2,
+.we-do-title3,
+.we-do-sub,
+.deseos-title,
+.deseos-sub,
+.deseos-text,
+.map-title,
+.hash-title,
+.numbers-title,
+.numbers-text,
+.date-title,
+.contact-title,
+.planer-title,
+.planer-text,
+.face-name,
+.face-number,
+.numbers-date,
+.form-title,
+.confirm-title,
+.questions-title,
+.food-title,
+.btn,
+.footer-names {
+    line-height: 1.5; /* Puedes ajustar este valor según tus necesidades */
+}
 
 
 
