@@ -461,8 +461,13 @@
                     }
                 </script>
                 <script>
-                    var mc = new Hammer(document.getElementById('imageContainer'));
+                    // Configura Hammer.js en el contenedor de imágenes con umbral y pointers más bajos (mayor sensibilidad)
+                    var mc = new Hammer(document.getElementById('imageContainer'), {
+                        threshold: 5,  // Puedes ajustar este valor según tus necesidades
+                        pointers: 1     // Utiliza solo un dedo para el gesto
+                    });
                 
+                    // Maneja los eventos de swipe hacia la izquierda y derecha
                     mc.on('swipeleft swiperight', function (event) {
                         if (event.type === 'swiperight') {
                             // Swipe hacia la derecha
