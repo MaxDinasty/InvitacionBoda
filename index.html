@@ -311,6 +311,7 @@
                         height: 30px;
                     }
                 </style>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
                 <div id="imageContainer" class="image-container">
                     <div class="arrow-left" onclick="changeContent(-1)">&#9665;</div>
                     <img id="img1" class="imagen-destacada selected" src="./themes/wedd/assets/images/iglesia.png"
@@ -460,42 +461,17 @@
                     }
                 </script>
                 <script>
-                    var startTouchX;
-                    var startTouchY;
-                    var imageContainer = document.getElementById('imageContainer');
+                    var mc = new Hammer(document.getElementById('imageContainer'));
                 
-                    imageContainer.addEventListener('touchstart', handleTouchStart, false);
-                    imageContainer.addEventListener('touchmove', handleTouchMove, false);
-                
-                    function handleTouchStart(event) {
-                        startTouchX = event.touches[0].clientX;
-                        startTouchY = event.touches[0].clientY;
-                    }
-                
-                    function handleTouchMove(event) {
-                        if (!startTouchX || !startTouchY) {
-                            return;
+                    mc.on('swipeleft swiperight', function (event) {
+                        if (event.type === 'swiperight') {
+                            // Swipe hacia la derecha
+                            changeContent(-1);
+                        } else if (event.type === 'swipeleft') {
+                            // Swipe hacia la izquierda
+                            changeContent(1);
                         }
-                
-                        var currentTouchX = event.touches[0].clientX;
-                        var currentTouchY = event.touches[0].clientY;
-                        var deltaX = currentTouchX - startTouchX;
-                        var deltaY = currentTouchY - startTouchY;
-                
-                        if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 30) {
-                            // Verificar si el movimiento en X es mayor que el movimiento en Y y supera el umbral
-                            if (deltaX > 0) {
-                                // Swipe hacia la derecha
-                                changeContent(-1);
-                            } else {
-                                // Swipe hacia la izquierda
-                                changeContent(1);
-                            }
-                        }
-                
-                        startTouchX = null;
-                        startTouchY = null;
-                    }
+                    });
                 </script>
 
             </div>
@@ -818,6 +794,8 @@
 
     <script src="/modules/system/assets/js/framework.js"></script>
     <script src="/modules/system/assets/js/framework.extras.js"></script>
+    
+
     <link rel="stylesheet" property="stylesheet" href="/modules/system/assets/css/framework.extras.css">
 
 </body>
