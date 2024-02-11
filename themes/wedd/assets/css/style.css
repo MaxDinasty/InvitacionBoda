@@ -78,7 +78,7 @@ body {
     background-size: 100% auto;
 
     width: auto;
-    height: 1770px;
+    height: 1700px;
 }
 
 
@@ -405,7 +405,7 @@ border-top: 2px #000 solid;
 /* Date */
 
 .date {
-    background-image: url(../images/cuentaatras.jpg);
+    background-image: url(../images/cuentaatras.jpeg);
     background-size: cover;
     margin-top: 200px;
 }
