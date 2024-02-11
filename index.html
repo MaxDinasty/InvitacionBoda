@@ -461,6 +461,7 @@
                 </script>
                 <script>
                     var startTouchX;
+                    var startTouchY;
                     var imageContainer = document.getElementById('imageContainer');
                 
                     imageContainer.addEventListener('touchstart', handleTouchStart, false);
@@ -468,25 +469,32 @@
                 
                     function handleTouchStart(event) {
                         startTouchX = event.touches[0].clientX;
+                        startTouchY = event.touches[0].clientY;
                     }
                 
                     function handleTouchMove(event) {
-                        if (!startTouchX) {
+                        if (!startTouchX || !startTouchY) {
                             return;
                         }
                 
                         var currentTouchX = event.touches[0].clientX;
+                        var currentTouchY = event.touches[0].clientY;
                         var deltaX = currentTouchX - startTouchX;
+                        var deltaY = currentTouchY - startTouchY;
                 
-                        if (deltaX > 30) {  // Reducir el umbral para hacerlo más sensible
-                            // Swipe hacia la derecha
-                            changeContent(-1);
-                        } else if (deltaX < -30) {  // Reducir el umbral para hacerlo más sensible
-                            // Swipe hacia la izquierda
-                            changeContent(1);
+                        if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 30) {
+                            // Verificar si el movimiento en X es mayor que el movimiento en Y y supera el umbral
+                            if (deltaX > 0) {
+                                // Swipe hacia la derecha
+                                changeContent(-1);
+                            } else {
+                                // Swipe hacia la izquierda
+                                changeContent(1);
+                            }
                         }
                 
                         startTouchX = null;
+                        startTouchY = null;
                     }
                 </script>
 
