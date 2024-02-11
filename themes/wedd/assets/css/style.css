@@ -837,7 +837,7 @@ border-top: 2px #000 solid;
 .food-title,
 .btn,
 .footer-names {
-    line-height: 1.5; /* Puedes ajustar este valor según tus necesidades */
+    line-height: 2; /* Puedes ajustar este valor según tus necesidades */
 }
 
 
